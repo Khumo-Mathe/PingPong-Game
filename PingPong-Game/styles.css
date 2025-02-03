@@ -62,30 +62,3 @@ canvas {
     background: #000;
     max-width: 100%; /* Ensure canvas doesn't overflow */
 }
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden; /* Prevent scrolling */
-}
-
-.game-container {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-
-canvas {
-    border: 2px solid #fff;
-    border-radius: 10px;
-    background: #000;
-}

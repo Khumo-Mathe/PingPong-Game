@@ -60,6 +60,11 @@ const highScoreDisplay = document.getElementById("highScore");
 
 // Event listeners for key presses
 document.addEventListener("keydown", (e) => {
+    // Prevent default behavior for arrow keys and game controls
+    if (["ArrowUp", "ArrowDown", "w", "s"].includes(e.key)) {
+        e.preventDefault();
+    }
+
     if (e.key === "ArrowUp") upArrowPressed = true;
     if (e.key === "ArrowDown") downArrowPressed = true;
     if (e.key === "w") wKeyPressed = true;
